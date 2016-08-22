@@ -10,6 +10,23 @@ body {
     position: relative; /* added for 1.10 */
 }
 
+#portfolio {
+    height: 100vh;
+}
+
+#about {
+    height: 100vh;
+}
+
+#faq {
+    height: 100vh;
+}
+
+/* this won't work for some reason, because the other id's have the vh set to 100 */ 
+#contact {
+    height: 100vh;
+}
+
 /* dont think this one works right 
 .nav ul li a {
     color: white;
