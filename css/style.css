@@ -1,23 +1,4 @@
 /**** index.html ****/
-
-/* no longer used */
-/*
-.jumbotron {
-    background-image: url("../img/enemy-landscape.png");
-    background-size: cover;
-}
-
-.jumbotron p {
-      color: red;
-} 
-
-.col-md-3 a {
-    color: red;
-} 
-*/
-
-/**** contact.html ****/
-
 * {
     box-sizing: border-box;
     /* border: 0.0625em solid red; */
@@ -28,38 +9,6 @@ body {
     padding-top: 3.125em;
     position: relative; /* added for 1.10 */
 }
-
-/* commenting out for 1.10 
-.nav {
-    background-color: black;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    padding: 1.25em 0.625em 1.25em;
-    z-index: 1;
-}
-
-.nav ul {
-    float: right;
-}
-
-.nav ul li {
-    display: inline-block;
-    margin: 0 0.625em;
-    width: 6.25em;
-    text-align: center;
-} 
-
-#navhead {
-    float: left;
-    width: 25%;
-}
-
-#navhead li {
-    width: 15.625em;
-    text-align: left;
-}
-*/
 
 /* dont think this one works right 
 .nav ul li a {
@@ -84,6 +33,7 @@ body {
     margin-left: -0.9375em;
     margin-right: -0.9375em;
 }
+
 /* https://coderwall.com/p/0jezca/vertical-spacing-for-bootstrap-columns */
 /* .row.row-grid [class*="col-"] + [class*="col-"] {
     margin-top: 0.625em;
@@ -167,12 +117,13 @@ body {
 }
 
 /* using bootstrap container div */ 
+/* 
 .old_container {
     /* background-color: lightgray; */
     /* padding-top: 1%;
-    padding-bottom: 5%; */
+    padding-bottom: 5%;
     width: 100%;
-} 
+} */
 
 .border {
     width: 60%;
@@ -287,24 +238,17 @@ body {
     background-image: url("http://www.wwe.com/f/styles/wwe_large/public/video/thumb/2012/09/savage_elbow_USE.jpg");
 }
 
-/* about.html */
+/* about  */
 
-/* 
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #fffeea;
-    color: #34495e;
-    padding-top: 3.125em;
-}
-
-.container {
+#about {
     width: 80%;
     margin: 0 auto;
 }
-*/
+
+#about-r1-skill {
+    background-color: lightseagreen;
+    height: 100%;
+}
 
 .header h1 {
     margin-bottom: 3.125em;
@@ -460,12 +404,6 @@ body {
 .skills h1, h2, h3 {
     font-family: 'Lato', sans-serif;
 }
-
-/*
-p, li {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-}
-*/
 
 .intro p {
     font-family: 'Lato', sans-serif;
