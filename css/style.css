@@ -1,0 +1,482 @@
+/**** index.html ****/
+
+/* no longer used */
+/*
+.jumbotron {
+    background-image: url("../img/enemy-landscape.png");
+    background-size: cover;
+}
+
+.jumbotron p {
+      color: red;
+} 
+
+.col-md-3 a {
+    color: red;
+} 
+*/
+
+/**** contact.html ****/
+
+* {
+    box-sizing: border-box;
+    /* border: 0.0625em solid red; */
+}
+
+body {
+    background-color: lightgray;
+    padding-top: 3.125em;
+    position: relative; /* added for 1.10 */
+}
+
+/* commenting out for 1.10 
+.nav {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 1.25em 0.625em 1.25em;
+    z-index: 1;
+}
+
+.nav ul {
+    float: right;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 0 0.625em;
+    width: 6.25em;
+    text-align: center;
+} 
+
+#navhead {
+    float: left;
+    width: 25%;
+}
+
+#navhead li {
+    width: 15.625em;
+    text-align: left;
+}
+*/
+
+/* dont think this one works right 
+.nav ul li a {
+    color: white;
+    transition: color 2s;
+    -webkit-transition: color 2s; /* Safari */
+   /* text-decoration: none;
+} */
+
+.nav > li > a:hover {
+    color: rebeccapurple !important;
+    transition: color 2s;
+    -webkit-transition:  color 2s; /* Safari */
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: bold; 
+} 
+
+#mycarousel {
+    padding-top: 1.25em;
+    margin-left: -0.9375em;
+    margin-right: -0.9375em;
+}
+/* https://coderwall.com/p/0jezca/vertical-spacing-for-bootstrap-columns */
+/* .row.row-grid [class*="col-"] + [class*="col-"] {
+    margin-top: 0.625em;
+}
+
+@media (min-width: 75em) {
+    .row.row-grid [class*="col-lg-"] + [class*="col-lg-"] {
+        margin-top: 0;
+    }
+}
+@media (min-width: 62em) {
+    .row.row-grid [class*="col-md-"] + [class*="col-md-"] {
+        margin-top: 0;
+    }
+}
+@media (min-width: 48em) {
+    .row.row-grid [class*="col-sm-"] + [class*="col-sm-"] {
+        margin-top: 0;
+    }
+}
+
+.row-grid + .row-grid {
+    margin-top: 0.625em;
+} */
+
+.anchor {
+  padding-top: 50px;
+}
+
+[class*="col-"] {
+    margin-bottom: 0.9375em;
+}
+
+.work-meta {
+    float: clear;
+}
+
+#work {
+    padding-top: 4.6875em;
+}
+
+.work-meta img {
+    width: 75%;
+    height: 75%;
+}
+
+.main {
+    background-color: lightgray;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+.item {
+    height: 37.5em;
+}
+
+.carousel-caption {
+    float: left;
+    position: absolute;
+    padding-bottom: 28.125em;
+    z-index: 0;
+}
+
+.objects {
+    padding-top: 1.25em;
+}
+
+#contact{
+    background-image: url("../img/splash/splash_stormywater.JPG");
+/*Add a background image*/
+    background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+    background-size: cover;
+/*Have the background cover the entire div section*/
+    /* color: white; */
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+    padding:6.25em;
+    padding-top: 3.125em;
+    height: 40em;
+}
+
+/* using bootstrap container div */ 
+.old_container {
+    /* background-color: lightgray; */
+    /* padding-top: 1%;
+    padding-bottom: 5%; */
+    width: 100%;
+} 
+
+.border {
+    width: 60%;
+    min-width: 25em;
+    max-width: 45em;
+    border: 0.1875em solid black;
+    margin: 10% auto;
+    position: relative;
+    background-color: white;
+    /*
+    position: absolute; 
+    top: 20%;
+    left: 30%; 
+    */
+    padding: 1.25em;
+    overflow: hidden;
+}
+
+.left_col {
+    width: 60%;
+    height: 60%;
+    float: left;
+    padding-left: 1.5625em;
+    padding-right: 3.125em;
+}
+
+.right_col {
+    width: 40%;
+    height: 60%;
+    float: left;
+    padding-top: 5%;
+}
+
+.address {
+    float: clear;
+}
+
+.glyphicon {
+    color: mediumpurple;
+    margin-right: 0.3125em;
+}
+
+.emailaddr a:link {
+    color: darkslategrey;
+}
+
+.emailaddr a:hover {
+    color: black;
+}
+
+.emailaddr a:visited {
+    color: mediumpurple;
+}
+
+.social {
+    color: green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+}
+
+.social-icons {
+    position: relative;
+    /* float: left; */
+    /* max-inline-size: 10%; */
+    height: 1.625em;
+    width: 1.625em;
+    margin-left: 0.0625em;
+    margin-right: 0.625em;
+    margin-bottom: 0.3125em;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    background-size: cover;
+}
+
+.fb {
+    background-image: url('../img/social/facebook-hover.png');
+}
+
+.fb:hover {
+    background-position: 0em -1.625em;
+    box-shadow: 0em 0em 0.25em 0.0625em rgba(0,0,0,0.8);
+}
+
+.inst {
+    background-image: url('../img/social/instagram-hover.png');
+}
+
+.inst:hover {
+    background-position: 0em -1.625em;
+    box-shadow: 0em 0em 0.25em 0.0625em rgba(0,0,0,0.8);
+}
+
+.tw {
+    background-image: url('../img/social/twitter-hover.png');
+}
+
+.tw:hover {
+    background-position: 0em -1.625em;
+    box-shadow: 0em 0em 0.25em 0.0625em rgba(0,0,0,0.8);
+}
+
+.elbow {
+    clear: both;
+    margin-top: 0.625em;
+    height: 9.375em;
+    width: 100%;
+    background-size: cover;
+    background-image: url("http://www.wwe.com/f/styles/wwe_large/public/video/thumb/2012/09/savage_elbow_USE.jpg");
+}
+
+/* about.html */
+
+/* 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffeea;
+    color: #34495e;
+    padding-top: 3.125em;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+*/
+
+.header h1 {
+    margin-bottom: 3.125em;
+    margin-top: 3.125em;
+    text-align: center;
+}
+
+.image {
+    /* display: inline-block; */
+    float: left;
+}
+
+.column {
+    /* display: inline-block; */
+    float: left;
+    padding: 0 1.25em;
+    width: 30%;
+}
+
+.intro {
+    padding: 0em;
+}
+
+.main-text {
+    clear: both;
+    padding-top: 3.75em
+}
+
+.imgc {
+    width: 100%;
+}
+
+#skill-list {
+    margin-left: 3.125em;
+}
+
+.skills {
+    background-color: #5ad4c2;
+    color: #fff;
+    padding-top: 3.125em;
+    padding-bottom: 3.125em;
+}
+
+/* faq.html */
+
+.faq {
+    padding-top: 0.625em;
+}
+
+.panel-group {
+    padding-top: 1.25em;
+}
+
+#headingOne,
+#headingTwo,
+#headingThree,
+#headingFour,
+#headingFive {
+    background-color: gray;
+}
+
+.panel,
+.panel-body {
+    border-style: none;
+    border-width: 0;
+}
+
+.panel-default {
+    background-color: lightgray;
+    border-style: none;
+    border-width: 0;
+}
+
+/* Typography */
+.navbar-brand {
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.1em;
+}
+
+.projectName a {
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.1em;
+}
+
+.nav a {
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 400;
+    text-transform: lowercase;
+    letter-spacing: 0.05em;
+}
+
+.title h1 {
+    font-family: 'Lato','Helvetica','sans-serif';
+    font-weight: 900;
+    color: mediumpurple;
+}
+
+.title h2 {
+    font-family: 'Lato', 'Helvetica', 'sans-serif';
+    font-weight: 700;
+}
+.subtitle_text {
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', 'serif';
+    font-style: italic;
+    font-stretch: ultra-expanded; 
+}
+
+.right_col p {
+    font-family: 'Lato','Helvetica','sans-serif';
+    font-weight: 4em;
+}
+
+.faq h1 {
+    font-family: 'Lato','Helvetica','sans-serif';
+    font-weight: 900;
+    text-align: center;
+    color: mediumpurple;
+}
+
+.panel-body {
+    font-family: 'Lato','Helvetica','sans-serif';
+}
+
+.panel-title a {
+    color: rebeccapurple;
+    font-family: 'Lato','Helvetica','sans-serif';
+    font-weight: 400;
+}
+
+.carousel-caption h3 {
+    font-family: 'Lato','Helvetica','sans-serif';
+    font-weight: 700;
+    color: mediumpurple;
+    font-style: bold;
+}
+
+.carousel-caption p {
+    font-family: 'Lato','Helvetica','sans-serif';
+    font-weight: 400;
+    color: black;
+}
+
+/* about.html Typography */
+
+.header h1, h2, h3
+.intro h1, h2, h3
+.skills h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+/*
+p, li {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+*/
+
+.intro p {
+    font-family: 'Lato', sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+    -webkit-margin-before: 0;
+}
+
+.skills h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* end */
